@@ -45,7 +45,7 @@ public class UserController {
 			return "add";
 		}
 		
-		  //进入添加页面
+		  //进入许可维护页面
 		@RequestMapping(value="/permission")
 		public String permission() {
 			return "permission";
